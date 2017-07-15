@@ -6,11 +6,11 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-locale                   : "zh-CN"
-title                    : "Site Title"
+locale                   : "zh"
+title                    : "ZeyuLee 的小站|My Awesome Site"
 title_separator          : "-"
-name                     : "Zeyulee"
-description              : "An amazing website."
+name                     : "Zeyu Lee"
+description              : "段子杂谈"
 url                      : "https://zeyulee.github.io"
 baseurl                  : "/blog"
 repository               : "zeyulee/blog"
@@ -77,12 +77,12 @@ analytics:
 
 # Site Author
 author:
-  name             : "Zeyulee"
-  avatar           : "/assets/images/bio-photo.jpg"
+  name             : "Zeyu Lee"
+  avatar           : "http://ot41apokn.bkt.clouddn.com/avatar.jpeg?imageView2/1/w/110/h/110/format/png/q/75|imageslim"
   bio              : "I am an amazing person."
   location         : "Somewhere"
   email            :
-  uri              :
+  uri              : "https://zeyulee.github.io"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -228,8 +228,8 @@ tag_archive:
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
-  ignore:
-    envs: development
+  #ignore:
+    #envs: development
 
 
 # Defaults
@@ -242,6 +242,10 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
+      sidebar:
+        nav: "sidebar"
+      header:
+        image: "http://ot41apokn.bkt.clouddn.com/header.jpeg?imageView2/1/w/1200/h/300/q/100|imageslim"
