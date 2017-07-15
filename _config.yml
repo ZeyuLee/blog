@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "zh"
-title                    : "ZeyuLee 的小站|My Awesome Site"
+title                    : "ZeyuLee 的小站"
 title_separator          : "-"
 name                     : "Zeyu Lee"
-description              : "段子杂谈"
+description              : "ZeyuLee 的小站"
 url                      : "http://zeyulee.com"
 baseurl                  : ""
 repository               : "zeyulee/blog"
