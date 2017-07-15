@@ -11,7 +11,7 @@ title                    : "ZeyuLee 的小站|My Awesome Site"
 title_separator          : "-"
 name                     : "Zeyu Lee"
 description              : "段子杂谈"
-url                      : "https://zeyulee.github.io"
+url                      : "http://zeyulee.com"
 baseurl                  : ""
 repository               : "zeyulee/blog"
 teaser                   : "/assets/images/500x300.png"
@@ -82,7 +82,7 @@ author:
   bio              : "I am an amazing person."
   location         : "Somewhere"
   email            :
-  uri              : "https://zeyulee.github.io"
+  uri              : "http://zeyulee.com"
   bitbucket        :
   codepen          :
   dribbble         :
