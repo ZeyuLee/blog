@@ -12,7 +12,7 @@ title_separator          : "-"
 name                     : "Zeyu Lee"
 description              : "段子杂谈"
 url                      : "https://zeyulee.github.io"
-baseurl                  : "/blog"
+baseurl                  : ""
 repository               : "zeyulee/blog"
 teaser                   : "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
