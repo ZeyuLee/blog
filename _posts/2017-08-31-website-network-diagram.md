@@ -2,7 +2,7 @@
 title: "站点网络架构示意图"
 layout: single
 categories: Training
-tags: network 
+tags: network
 ---
 日常工作中经常有开发的小伙伴不清楚运维嘴里的常用术语，导致反馈问题表述不准确，判断网络故障也没有一个清晰的思路，有事儿没事儿就甩给运维。作为一个经常跟运维混迹在一起的coder，实在忍受不了运维的吐槽，今天给公司小伙伴从运维的视角讲了讲网站的络架构，下面是用到的示意图（Drew By [ProcessOn](https://www.processon.com)）
 
