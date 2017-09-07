@@ -1,5 +1,5 @@
 ---
-title: "PHP7升级平民攻略"
+title: "PHP7升级全过程记录"
 layout: single
 categories: PHP
 tags: linux php7 upgrade
@@ -382,7 +382,21 @@ sub counthugepages {
 printf "%d huge pages\n",counthugepages($ARGV[0]);
 ```
 
-***
+## 结果
+
+从3月中旬第一次灰度上线，到7月12日下午最后一台服务器升级完成。整个集群CPU使用率平均下降15% \- 20%，负载也有很大程度的下降，完全达到预期。
+
+![php7升级后cpu使用率情况](http://ot41apokn.bkt.clouddn.com/after-upgrade-cpu.png)
+
+![php7升级后负载情况](http://ot41apokn.bkt.clouddn.com/after-upgrade-load.png)
+
+# 总结
+
+首先要感谢PHP社区各位成员的努力，让PHP的性能有了一次巨大提升，并且这次提升对于大多数应用领域的开发者来说，几乎可以算是透明的。
+
+在这次漫长的升级过程中，各位小伙伴也为这次里程碑式的升级贡献了太多的智慧，付出了辛勤的劳动，感谢各位。
+
+接下来还要推动公司内其它老项目的升级工作，希望其他小伙伴也能尽快享受到升级带来的实惠。
 
 # 参考资料
 
