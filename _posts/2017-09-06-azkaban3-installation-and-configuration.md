@@ -48,7 +48,7 @@ tar -zxvf azkaban-solo-server-*-*-*.tar.gz
 
 ### 主配置文件 azkaban.properties
 
-```bash
+```ini
 # Azkaban 个性化设置，除了时区和web资源路径需要注意，其它随意
 azkaban.name=Test
 azkaban.label=My Local Azkaban
@@ -89,7 +89,7 @@ mail.host=
 mail.port=25
 mail.tls=false
 mail.user=
-mail.password
+mail.password=
 
 # 任务通知邮件（【坑2】官方文档没有一点儿说明，不看源码肯定不知道）
 # 这里配置了也没用，看了源码，至少在job里面设置了才能收到邮件
@@ -191,7 +191,7 @@ ALTER TABLE `executors` CHANGE `active` `active` TINYINT DEFAULT 1;
 
 ### web-server 主配置文件 azkaban.properties
 
-```bash
+```ini
 # 仅列出于单机模式的不同
 # 数据库配置
 database.type=mysql
@@ -213,7 +213,7 @@ azkaban.executorselector.comparator.CpuUsage=1
 
 ### executor-server 主配置文件 azkaban.properties
 
-```bash
+```ini
 # 相比web-server配置很简单
 # 数据库配置
 database.type=mysql
@@ -247,15 +247,15 @@ executor.global.properties=conf/global.properties
 
 ### job demo
 
-```bash
+```ini
 # foo.job
 type=command
-command=echo “foo”
+command=echo "foo"
 
 # bar.job
 type=command
-command=echo “bar”
+command=echo "bar"
 dependencies=foo
 ```
 
-打包成zip格式文件，新建项目后上传
+打包成zip格式文件，新建项目后上传进行测试
